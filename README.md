@@ -15,9 +15,10 @@ The following are some terms I hear all the time that typically mean nothing to 
   4. The database sends the result back to the API
   5. The API sends the data to the website
   6. The user sees all items of type "shirt" on the webpage
-- **IDE:**: An "Integrated Development Environment" is a comprehensive software application that provides programmers with a centralized and unified environment for writing, testing, and managing code. IDEs typically include a text editor, a compiler or interpreter, debugging tools, and other features like code completion, project management, and version control integration. They are designed to streamline the software development process, making it more efficient and productive by providing a convenient and cohesive workspace for writing and maintaining code.
+- **IDE:** An "Integrated Development Environment" is a comprehensive software application that provides programmers with a centralized and unified environment for writing, testing, and managing code. IDEs typically include a text editor, a compiler or interpreter, debugging tools, and other features like code completion, project management, and version control integration. They are designed to streamline the software development process, making it more efficient and productive by providing a convenient and cohesive workspace for writing and maintaining code.
 - **Git**: a version control system used widely in software development. It allows multiple developers to collaborate on a codebase by tracking changes to source code, facilitating teamwork, and helping manage different versions of a project.
-- **Linux and UNIX:** 
+- **FOSS:** free, open-source software. Describes an application, language, framework, etc. whose source code is freely available online. Contributing to open-source codebases is a great way to gain confidence working on large projects and improving your code literacy. You can easily find open-source projects on GitHub.
+- **Linux and UNIX:** UNIX is an older operating system that inspired many different operating systems today including OSX and Linux. Linux is an operating system *kernel* that's used for many different distributions like Ubuntu, Fedora, and Arch. You can easily install Linux yourself on a personal computer. I highly recommend doing so if you have an older laptop you're not using, but you can also configure your personal laptop to run both Windows/OSX and a Linux distribution (a.k.a. dual-booting). Ubuntu is the most beginner friendly distribution while Arch gives you the most customization.
 
 ## Languages
 
@@ -33,12 +34,8 @@ These languages are typically used in classroom environments because they have u
 - **C++:** An extension of the C language that offers better security features and combines C's low-level memory manipulation with higher level abstractions for easier programming. C++ is still not a particularly easy language to write in (the creator only rated himself a 7/10 in the language), but it's capabilities are essential to millions of embedded systems. Due to its high performance, it's commonly used for game development.
   - [Learn C++ by making games with the Unreal Engine](https://docs.unrealengine.com/5.2/en-US/programming-with-cplusplus-in-unreal-engine/)
   - [Purchase the Arduino Starter Kit to get started with embedded systems](https://store-usa.arduino.cc/products/arduino-starter-kit-multi-language?selectedStore=us)
-- **Java:** a widely used platform-independent language renowned for its "write once, run anywhere" capability. Java is so ubiquitous it's difficult to pin down its use cases, but most notably it's the language used to develop Android apps.
+- **Java:** a widely used platform-independent language renowned for its "write once, run anywhere" capability. Java is so ubiquitous it's difficult to pin down its use cases. It can be used for almost any application and it's a great language to use for personal projects.
 - **C#:** very similar to Java with some features that make the programmer experience better. Due to some initial restrictions when C# was released, it tends to be a less popular choice than Java in the industry simply due to the impact of historical precedent. However, it has just as many use cases especially in gaming with the Unity framework.
-- **Swift:** Apple's language for iOS and macOS development known for its modern syntax, strong safety features, and speed. To use Swift to its full capabilities, you'll need to understand advanced programming concepts like memory management and functional programming. However, you can accomplish a lot in Swift using only its high level features and it provides a good introduction to these concepts.
-  - [Learn Swift from the ground up in Hacking with Swift](https://www.hackingwithswift.com/)
-  - [Create beautiful applications easily with SwiftUI](https://www.hackingwithswift.com/) (I recommend having a good foundation in Swift before starting this series)
-
 
 ### Data Science
 
@@ -59,3 +56,21 @@ Many languages can be used for website development, but these three are essentia
 - **JavaScript:** allows developers to make their websites interactive. Handles actions like button clicks, fetching data from APIs, and animating items on the page. JavaScript has a large number of use-cases outside of web development, but its essential to the web.
   - [MDN is my favorite resource for all things JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   - [React is an increasingly popular framework](https://react.dev/) (HIGHLY recommend not diving into React until you have a good grasp on JavaScript)
+
+### Mobile App Development
+
+These languages and frameworks are used for developing applications for iOS and Android.
+
+- **Swift:** Apple's language for iOS and macOS development known for its modern syntax, strong safety features, and speed. To use Swift to its full capabilities, you'll need to understand advanced programming concepts like memory management and functional programming. However, you can accomplish a lot in Swift using only its high level features and it provides a good introduction to these concepts.
+  - [Learn Swift from the ground up in Hacking with Swift](https://www.hackingwithswift.com/)
+  - [Create beautiful applications easily with SwiftUI](https://www.hackingwithswift.com/) (I recommend having a good foundation in Swift before starting this series)
+- **Java:** used for the development of Android apps. More details mentioned in the foundational section.
+- **Dart:** language used by the [Flutter](https://flutter.dev/) development kit that allows developers to make cross-platform apps (same code runs on iOS and Android). Flutter can even be used to create web and desktop applications.
+- **JavaScript:** can be used with [React Native](https://reactnative.dev/), another cross-platform development kit. React Native apps tend to be a little slower than native or Flutter apps, but they can be easier to create if you're already familiar with JavaScript.
+
+### Systems and Embedded Programming
+
+As mentioned before, C and C++ are very important languages in this field; however, I wanted to mention a new competitor that's quickly gaining popularity. 
+
+- **Rust:** a general purpose language that focuses on safety, performance, and concurrency. Rust works seamlessly with C and C++, so it's become a popular option for developers maintaining legacy codebases who want to shift to a language with more modern features. Rust can often feel like writing in any other highly-abstracted language, but it still offers low-level capabilities like C and C++. Since it's a new, open-source language, Rust's features are constantly evolving and driven by developer feedback.
+  - [The tutorial on the Rust website is incredible](https://www.rust-lang.org/learn)
